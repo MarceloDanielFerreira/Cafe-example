@@ -195,3 +195,16 @@ div,li {
     text-align: center;
     font-size: 10px;
   }
+  .side-by-side {
+    display: flex;
+  }
+  
+  .side-by-side dt {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .side-by-side dd {
+    flex: 2;
+    margin-left: 10px;
+  }
